@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rakib Hasan — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-field"></div>
+<canvas id="bg-canvas"></canvas>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="brand"><img class="nav-avatar" src="avatar.jpg" alt=""> Rakib Hasan</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#focus">Focus</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <section class="hero" style="border-top:none;">
+    <div class="hero-top">
+      <img class="avatar" src="avatar.jpg" alt="Rakib Hasan">
+      <div class="eyebrow" style="margin-bottom:0;"><span class="dot"></span> Open to learning opportunities &amp; collaboration</div>
+    </div>
+    <h1>Rakib Hasan</h1>
+    <p class="lede">CST student at <strong>Sylhet Polytechnic Institute</strong>, based in Bogura, Bangladesh — building toward a career as an <strong>ethical hacker</strong>, one layer of the stack at a time.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="mailto:rakibhasanrt668@gmail.com">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" stroke-opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+        Email me
+      </a>
+      <a class="btn btn-ghost" href="#skills">View skills</a>
+    </div>
+    <div class="hero-meta">
+      <div class="item"><div class="num">CST</div><div class="lbl">Department, Sylhet Polytechnic</div></div>
+      <div class="item"><div class="num">Linux + Nmap</div><div class="lbl">Core foundations</div></div>
+      <div class="item"><div class="num">AI + Security</div><div class="lbl">Current focus</div></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-head">
+      <p class="section-tag"><span class="n">01</span> — About</p>
+      <h2>Who I am</h2>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>I'm a Computer Science &amp; Technology student at <strong>Sylhet Polytechnic Institute</strong>, currently based in Bogura, Bangladesh. My long-term goal is to work as an <strong>ethical hacker</strong> — someone who finds weaknesses in systems in order to help fix them, under proper authorization, not exploit them.</p>
+        <p>I'm building that path deliberately: starting with <strong>Linux fundamentals</strong> and <strong>networking</strong> rather than jumping straight to tools, then layering practical skills like network reconnaissance with Nmap on top of that foundation.</p>
+        <p>Alongside security, I'm also exploring how different <strong>AI models</strong> work and how to prompt them effectively — a skill set I think will matter more, not less, in the security field going forward.</p>
+      </div>
+      <div class="fact-card">
+        <div class="fact-row"><span class="k">name</span><span class="v">Rakib Hasan</span></div>
+        <div class="fact-row"><span class="k">location</span><span class="v">Bogura, Bangladesh</span></div>
+        <div class="fact-row"><span class="k">institute</span><span class="v">Sylhet Polytechnic Institute</span></div>
+        <div class="fact-row"><span class="k">department</span><span class="v">CST</span></div>
+        <div class="fact-row"><span class="k">goal</span><span class="v">Ethical Hacker</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="focus">
+    <div class="section-head">
+      <p class="section-tag"><span class="n">02</span> — Focus</p>
+      <h2>What I'm working on</h2>
+    </div>
+    <div class="focus-grid">
+      <div class="focus-card">
+        <div class="focus-icon">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <h3>Cybersecurity fundamentals</h3>
+        <p>Working systematically through Linux, networking concepts, and how real systems are actually attacked and defended.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M5 8v3a2 2 0 0 0 2 2h3m5-5v3a2 2 0 0 1-2 2h-3m0 0v3"/></svg>
+        </div>
+        <h3>Networking &amp; recon</h3>
+        <p>Comfortable navigating network fundamentals and mapping hosts and services with Nmap.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a5 5 0 0 1 5 5v2a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5z"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <h3>AI models &amp; prompting</h3>
+        <p>Exploring different AI models and how to prompt them effectively — increasingly relevant to modern security work.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head">
+      <p class="section-tag"><span class="n">03</span> — Skills</p>
+      <h2>What I bring</h2>
+    </div>
+    <div class="skills-groups">
+      <div class="skill-group">
+        <h4>foundations</h4>
+        <div class="skill-icon-list">
+          <div class="skill-icon-row">
+            <span class="mark" style="color:#E7EBF0;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1.1 0 2 1.2 2 2.7 0 .9-.3 1.6-.7 2.2.5.2.9.6 1.1 1.1.6 1.4 1.9 4.9 2.3 6.6.3 1.2-.1 2.1-.9 2.6-.5.3-.6.6-.5 1.1.2.9-.3 1.6-1.2 1.7-.6.1-1-.1-1.4-.5-.3.5-.8.8-1.4.8h-2.6c-.6 0-1.1-.3-1.4-.8-.4.4-.8.6-1.4.5-.9-.1-1.4-.8-1.2-1.7.1-.5 0-.8-.5-1.1-.8-.5-1.2-1.4-.9-2.6.4-1.7 1.7-5.2 2.3-6.6.2-.5.6-.9 1.1-1.1-.4-.6-.7-1.3-.7-2.2C10 3.2 10.9 2 12 2z"/><circle cx="10" cy="9" r="1" fill="#0B0E13"/><circle cx="14" cy="9" r="1" fill="#0B0E13"/></svg>
+            </span>
+            <div><div class="name">Linux</div><div class="sub">Command line, file systems, permissions</div></div>
+          </div>
+          <div class="skill-icon-row">
+            <span class="mark" style="color:var(--steel);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M5 8v3a2 2 0 0 0 2 2h3m5-5v3a2 2 0 0 1-2 2h-3m0 0v3"/></svg>
+            </span>
+            <div><div class="name">Networking</div><div class="sub">TCP/IP, protocols, topology basics</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4>tools</h4>
+        <div class="skill-icon-list">
+          <div class="skill-icon-row">
+            <span class="mark" style="color:var(--teal);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.2" y2="16.2"/><path d="M11 8v3l2 2"/></svg>
+            </span>
+            <div><div class="name">Nmap</div><div class="sub">Host discovery &amp; port scanning</div></div>
+          </div>
+          <div class="skill-icon-row">
+            <span class="mark" style="color:var(--amber);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </span>
+            <div><div class="name">Cybersecurity fundamentals</div><div class="sub">Core concepts &amp; defensive thinking</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4>ai models &amp; prompting</h4>
+        <div class="skill-icon-list">
+          <div class="skill-icon-row">
+            <span class="mark" style="color:#74AA9C;">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a5 5 0 0 0-5 5v.3A5 5 0 0 0 4 12a5 5 0 0 0 3 4.6V17a5 5 0 0 0 5 5 5 5 0 0 0 5-5v-.3a5 5 0 0 0 3-4.7 5 5 0 0 0-3-4.6V7a5 5 0 0 0-5-5zm0 3a2 2 0 0 1 2 2v.6l-2 1.2-2-1.2V7a2 2 0 0 1 2-2z"/></svg>
+            </span>
+            <div><div class="name">ChatGPT</div><div class="sub">Reasoning &amp; general-purpose tasks</div></div>
+          </div>
+          <div class="skill-icon-row">
+            <span class="mark" style="color:var(--steel);">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.8 6.3L20 10l-6.2 1.7L12 18l-1.8-6.3L4 10l6.2-1.7z"/></svg>
+            </span>
+            <div><div class="name">Gemini</div><div class="sub">Research &amp; multimodal prompting</div></div>
+          </div>
+          <div class="skill-icon-row">
+            <span class="mark" style="color:var(--amber);">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3l2.2 5.4L20 10l-5.8 1.6L12 17l-2.2-5.4L4 10l5.8-1.6z"/></svg>
+            </span>
+            <div><div class="name">Claude</div><div class="sub">Writing &amp; structured prompting</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-band">
+      <div>
+        <h2>Let's connect</h2>
+        <p>Open to conversations about cybersecurity, AI, or opportunities to learn and collaborate. Reach out through whichever channel works best for you.</p>
+        <a class="btn btn-primary" href="mailto:rakibhasanrt668@gmail.com">Send an email</a>
+      </div>
+      <div class="contact-list">
+        <a class="contact-row" href="mailto:rakibhasanrt668@gmail.com">
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></span>
+          <span><span class="lbl">email</span><span class="val">rakibhasanrt668@gmail.com</span></span>
+        </a>
+        <a class="contact-row" href="tel:+8801917710498">
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg></span>
+          <span><span class="lbl">phone</span><span class="val">01917-710498</span></span>
+        </a>
+        <a class="contact-row" href="https://www.facebook.com/share/1BwBmvYvVj/" target="_blank" rel="noopener">
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></span>
+          <span><span class="lbl">facebook</span><span class="val">Rakib Hasan</span></span>
+        </a>
+        <a class="contact-row" href="https://www.instagram.com/spiderman_6688" target="_blank" rel="noopener">
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
+          <span><span class="lbl">instagram</span><span class="val">@spiderman_6688</span></span>
+        </a>
+        <a class="contact-row" href="https://x.com/JonathanJXZ" target="_blank" rel="noopener">
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg></span>
+          <span><span class="lbl">twitter / x</span><span class="val">@JonathanJXZ</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Rakib Hasan. Built with intent, one layer at a time.
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
